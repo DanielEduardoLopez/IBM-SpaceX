@@ -31,7 +31,7 @@ On the other hand, analysis from the historical launching data suggested that S
 Thus, the present study suggests that the **cost of the Falcon 9 rocket launches** should be set at **62 million dollars**, as stated by SpaceX.
 
 ____
-### **Description of files in directory**
+### **Description of files in repository**
 | **File** | **Description** |
 | ------------- | ------------- |
 | **1-Spacex-data-collection-api.ipynb** | Notebook for collecting the required data from SpaceX API using Requests. |
