@@ -2,19 +2,19 @@
 This repository stores the Jupyter notebooks, datasets and the final report of the Applied Data Science Capstone from the IBM Data Science Professional Certificate (https://www.coursera.org/learn/applied-data-science-capstone?specialization=ibm-data-science).
 
 ____
-### **Introduction**
+### **1. Introduction**
 SpaceX offers Falcon 9 rocket launches with a cost of 62 million dollars while other providers cost upward of 165 million dollars each. A significant amount of the savings is due to SpaceX's ability to reuse the first stage.
 
 ____
-### **Objective**
+### **2. Objective**
 To predict the first stage landing of the SpaceX Falcon 9 rocket launches by using a classification model in order to determine the cost of a launch.
 
 ____
-### **Question**
+### **3. Question**
 Will the first stage of the SpaceX Falcon 9 rocket land successfully? 
 
 ____
-### **Abridged Methodology**
+### **4. Abridged Methodology**
 1) **Analytical approach**: Classification model.
 2) **Data requirements**: Historical launching data from 2010-04-06 to 2020-06-12.
 3) **Data collection:** Data was collected through calls to the SpaceX's API and web scraping to the Wikipedia's article on List of Falcon 9 and Falcon Heavy launches with Python and its libraries such as Requests and BeautifulSoup.
@@ -26,7 +26,7 @@ ____
 9) **Reporting:** A final report was written with the complete results obtained from the analysis.
 
 ___
-### **Dashboard**
+### **5. Dashboard**
 To view and play with the interactive Dashboard, please download the **[app](https://github.com/DanielEduardoLopez/IBM-SpaceX/blob/main/7-spacex_dash_app.py)** into a directory of your choice. Then, run the app using the following command in Windows:
 ```bash
 python 7-spacex_dash_app.py
@@ -40,13 +40,13 @@ And visit http://127.0.0.1:8050/ in your web browser.
 Please note that Python 3 and its libraries Numpy, Pandas, Dash and Plotly are required for properly running the dashboard.
 
 ___
-### **Main Conclusions**
+### **6. Main Conclusions**
 The classification model built with **Decision Trees** was the one that exhibited the highest accuracy, with an score of **88.9%**. Moreover, the outcome of the model indicated that **most of the launches from SpaceX will land successfully**. 
 On the other hand, analysis from the historical launching data suggested that SpaceX has gotten better at launching and its **success rate** has stabilized since 2017 in **about 80%**.
 Thus, the present study suggests that the **cost of the Falcon 9 rocket launches** should be set at **62 million dollars**, as stated by SpaceX.
 
 ____
-### **Description of files in repository**
+### **7. Description of files in repository**
 | **File** | **Description** |
 | ------------- | ------------- |
 | **1-Spacex-data-collection-api.ipynb** | Notebook for collecting the required data from SpaceX API using Requests. |
@@ -64,5 +64,7 @@ ____
 | **dataset_part_1_DEL.csv** | Data set created from the calls to API SpaceX.
 | **spacex_web_scraped.csv** | Data set created from the web scraping to Wikipedia's article on List of Falcon 9 and Falcon Heavy launches.
 | **dataset_part_2_DEL.csv** | Data set created after Data wrangling.
+| **spacex_launch_dash.csv** | Dataset created for the Dash app.
 | **dataset_part_3_DEL.csv** | Dataset created after the Feature Engineering process.
+
 
