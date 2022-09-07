@@ -15,14 +15,29 @@ Will the first stage of the SpaceX Falcon 9 rocket land successfully?
 
 ____
 ### **Abridged Methodology**
-1) Analytical approach: Classification model.
-2) Data requirements: Historical launching data from 2010-04-06 to 2020-06-12.
-3) Data was collected through calls to the SpaceX's API and web scraping to the Wikipedia's article on List of Falcon 9 and Falcon Heavy launches with Python and its libraries such as Requests and BeautifulSoup.
-4) Data then was prepared and cleaned with Python using Pandas and Numpy. 
-5) Data was explored and visualized in Python using Matplotlib.
-6) A dashboard was built using Plotly and Dash.
-7) Several classification models using Logistic Regression, Support Vector Machines, Decision Trees and K-Nearest Neighbors were built and tuned for predicting whether the SpaceX Falcon 9 rocket will land successfuly or not.
-8) A final report was written with the complete results obtained from the analysis.
+1) **Analytical approach**: Classification model.
+2) **Data requirements**: Historical launching data from 2010-04-06 to 2020-06-12.
+3) **Data collection:** Data was collected through calls to the SpaceX's API and web scraping to the Wikipedia's article on List of Falcon 9 and Falcon Heavy launches with Python and its libraries such as Requests and BeautifulSoup.
+4) **Data exploration:** Data was explored and visualized in Python using Matplotlib. 
+5) **Data preparation:** Data then was prepared and cleaned with Python using Pandas and Numpy. 
+6) **Data analysis:** Data then was analyzed using SQL in Python. 
+7) **Data visualization:** A dashboard was built using Plotly and Dash.
+8) **Data modeling:** Several classification models using Logistic Regression, Support Vector Machines, Decision Trees and K-Nearest Neighbors were built and tuned for predicting whether the SpaceX Falcon 9 rocket will land successfuly or not.
+9) **Reporting:** A final report was written with the complete results obtained from the analysis.
+
+___
+### **Dashboard**
+To view and play with the interactive Dashboard, please download the **[app](https://github.com/DanielEduardoLopez/IBM-SpaceX/blob/main/7-spacex_dash_app.py)** into a directory of your choice. Then, run the app using the following command in Windows:
+```bash
+python 7-spacex_dash_app.py
+```
+And visit http://127.0.0.1:8050/ in your web browser.
+
+<p align="center">
+	<img src="Images/Dashboard.jpg?raw=true" width=65% height=65%>
+</p>
+
+Please note that Python 3 and its libraries Numpy, Pandas, Dash and Plotly are required for properly running the dashboard.
 
 ___
 ### **Main Conclusions**
