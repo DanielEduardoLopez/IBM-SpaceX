@@ -1,7 +1,7 @@
 # **IBM-SpaceX**
 
 <p align="center">
-	<img src="Images/1-Header.png?raw=true" width=60% height=60%>
+	<img src="Images/1-Header.png?raw=true" width=80% height=80%>
 </p>
 
 This repository stores the Jupyter notebooks, datasets and the final report of the Applied Data Science Capstone from the **[IBM Data Science Professional Certificate](https://www.coursera.org/learn/applied-data-science-capstone?specialization=ibm-data-science)**.
@@ -40,22 +40,22 @@ ____
 
 ___
 ### **5. Main Results**
-CCAFS SLC 40 is the most used Launch Site and the VAFB SLC-4E is the least used one. Furthermore, KSC LC-39A is the launch site with the highest number of successful missions and it is notable that the success rate has improved over the years as represented by the Flight number.
+CCAFS SLC 40 is the most used Launch Site and the VAFB SLC-4E is the least used one. Furthermore, KSC LC-39A is the launch site with the highest number of successful missions and it is notable that the success rate has improved over the years as represented by the Flight number (0 for failed landing and 1 for successful landing).
 
 <p align="center">
-	<img src="Images/2-LaunchSite_vs_FlightNumber.png?raw=true" width=60% height=60%>
+	<img src="Images/2-LaunchSite_vs_FlightNumber.png?raw=true" width=95% height=95%>
 </p>
 
 In addition, CCAFS SLC 40 and KSC LC-39A are used for a broad range of payload masses, from light to extra heavy ones, whereas VAFB SLC-4E is only used for light and medium payloads, which might explain why is the less used launch site. The missions also tend to be more successful with heavier payloads.
 
 <p align="center">
-	<img src="Images/3-LaunchSite_vs._Payload.png?raw=true" width=60% height=60%>
+	<img src="Images/3-LaunchSite_vs._Payload.png?raw=true" width=95% height=95%>
 </p>
 
 ES-L1, GEO, HEO and SSO are the orbit types with the highest success rates (100%). SO is the orbit type with the lowest success rate (0%). And the rest of the orbit types have a success rate ranging from 50% to 85%.
 
 <p align="center">
-	<img src="Images/4-OrbitSuccessRate.png?raw=true" width=60% height=60%>
+	<img src="Images/4-OrbitSuccessRate.png?raw=true" width=50% height=50%>
 </p>
 
 LEO, ISS, PO, GTO and VLEO are the most common orbit types. 
@@ -67,7 +67,7 @@ VLEO is the most common orbit type in recent flight numbers.
 Earlier flight numbers show a tendency to fail regardless of the orbit type.
 
 <p align="center">
-	<img src="Images/5-OrbitType_vs_FlightNumber.png?raw=true" width=60% height=60%>
+	<img src="Images/5-OrbitType_vs_FlightNumber.png?raw=true" width=95% height=95%>
 </p>
 
 Heavier payloads are selected for VLEO, IS and PO orbit types and have a high rate of success.
@@ -77,78 +77,83 @@ It appears that ES-L1, SSO and HEO are used with light payloads (from 0 to 400
 The rest of the orbit types are used with light and medium payloads (from 0 to 7000 kg).
 
 <p align="center">
-	<img src="Images/6-OrbitType_vs_Payload.png?raw=true" width=60% height=60%>
+	<img src="Images/6-OrbitType_vs_Payload.png?raw=true" width=95% height=95%>
 </p>
 
 Definitely, the launch success rate have improved over the years. In particular, the success rate have improved since 2013, from 0% to an 80% in 2017. And since 2017, it appears that the success rate has stabilized in about 80%.
 
 <p align="center">
-	<img src="Images/7-SuccessRateOverTime.png?raw=true" width=60% height=60%>
+	<img src="Images/7-SuccessRateOverTime.png?raw=true" width=50% height=50%>
 </p>
 
 Launch sites are located on the coasts and close to the Ecuador.
 
 <p align="center">
-	<img src="Images/8-LaunchSitesLocalization.png?raw=true" width=60% height=60%>
+	<img src="Images/8-LaunchSitesLocalization.png?raw=true" width=50% height=50%>
 </p>
 
 As mentioned above, the Vanderberg (VAFB SLC-4E) Launch Site is the least used and its number of successful landings is fairly low.
 
 <p align="center">
-	<img src="Images/9-VAFB.png?raw=true" width=60% height=60%>
+	<img src="Images/9-VAFB.png?raw=true" width=50% height=50%>
 </p>
 
 The Cape Canaveral (CCAFS LC-40 and CCAFS SLC-40) is the most used Launch Site, even though its number of failed landings is slightly superior to the its number of successful landings.
 
 <p align="center">
-	<img src="Images/10-CCAFS.png?raw=true" width=60% height=60%>
+	<img src="Images/10-CCAFS.png?raw=true" width=50% height=50%>
 </p>
 
 The Kennedy Space Center (KSC LC-39A) has the highest number of successful missions. Nonetheless, it is not the most used Launch Site.
 
 <p align="center">
-	<img src="Images/11-KSC.png?raw=true" width=60% height=60%>
+	<img src="Images/11-KSC.png?raw=true" width=50% height=50%>
 </p>
 
 KSC LC-39A is 6.46 KM far from the Atlantic Sea, and 72.21 KM far from Orlando, FL.
 
 <p align="center">
-	<img src="Images/12-KSC_Distances.png?raw=true" width=60% height=60%>
+	<img src="Images/12-KSC_Distances.png?raw=true" width=50% height=50%>
 </p>
 
 Indeed, the Highest Launch Success Ratio is hold by the KSC LC-39A launch site, with a 76.9% of success and only 23.1% of failure.
 
 <p align="center">
-	<img src="Images/13-KSC_SuccessRate.png?raw=true" width=60% height=60%>
+	<img src="Images/13-KSC_SuccessRate.png?raw=true" width=95% height=95%>
 </p>
 
 The payload range(s) with the highest launch success rate was from 1952 kg to 5300 kg.
 
 <p align="center">
-	<img src="Images/14-PayloadRangeSuccess.png?raw=true" width=60% height=60%>
+	<img src="Images/14-PayloadRangeSuccess.png?raw=true" width=95% height=95%>
 </p>
 
 The FT and the B5 Booster versions were the ones with the highest launch success rate.
 
 <p align="center">
-	<img src="Images/15-F9BoosterSuccess.png?raw=true" width=60% height=60%>
+	<img src="Images/15-F9BoosterSuccess.png?raw=true" width=95% height=95%>
 </p>
 
 The model with the highest classification accuracy was the one built with **Decision Trees** with an accuracy of **88.9%**, when fitted with the following best parameters: 
 
 ```bash
-{'criterion': 'gini', 'max_depth': 2, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'best'} 
+{'criterion': 'gini', 
+'max_depth': 2, 
+'max_features': 'sqrt', 
+'min_samples_leaf': 1, 
+'min_samples_split': 2, 
+'splitter': 'best'} 
 
 ```
 
 <p align="center">
-	<img src="Images/16-AccuracyModels.png?raw=true" width=60% height=60%>
+	<img src="Images/16-AccuracyModels.png?raw=true" width=50% height=50%>
 </p>
 
 Moreover, the confusion matrix suggests that the built model is better at predicting successful landings than unsuccessful landings. So, there is room for improvement in terms of reducing both false positives and false negatives.
 
 <p align="center">
-	<img src="Images/17-ConfusionMatrix.png?raw=true" width=60% height=60%>
+	<img src="Images/17-ConfusionMatrix.png?raw=true" width=50% height=50%>
 </p>
 
 In spite of the above, this results suggest that, indeed, most of the launches from SpaceX will land successfully. 
@@ -205,5 +210,5 @@ ____
 | **dataset_part_3_DEL.csv** | Dataset created after the Feature Engineering process.
 
 <p align="center">
-	<img src="Images/18-Tail.png?raw=true" width=60% height=60%>
+	<img src="Images/18-Tail.png?raw=true" width=80% height=80%>
 </p>
