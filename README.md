@@ -1,8 +1,13 @@
-# **IBM-SpaceX**
-
 <p align="center">
 	<img src="Images/1-Header.png?raw=true" width=80% height=80%>
 </p>
+
+# **IBM-SpaceX**
+#### By Daniel Eduardo López
+
+**[LinkedIn](https://www.linkedin.com/in/daniel-eduardo-lopez)**
+
+**[Github](https://github.com/DanielEduardoLopez)**
 
 This repository stores the Jupyter notebooks, datasets and the final report of the Applied Data Science Capstone from the **[IBM Data Science Professional Certificate](https://www.coursera.org/learn/applied-data-science-capstone?specialization=ibm-data-science)**.
 
