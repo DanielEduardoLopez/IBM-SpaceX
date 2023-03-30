@@ -2,7 +2,7 @@
 	<img src="Images/1-Header.png?raw=true" width=80% height=80%>
 </p>
 
-# **IBM-SpaceX**
+# **IBM SpaceX: Applied Data Science Capstone Project**
 #### By Daniel Eduardo López
 
 **28/07/2022**
@@ -14,6 +14,20 @@
 This repository stores the Jupyter notebooks, datasets and the final report of the Applied Data Science Capstone from the **[IBM Data Science Professional Certificate](https://www.coursera.org/learn/applied-data-science-capstone?specialization=ibm-data-science)**.
 
 ____
+### **Contents**
+
+1. [Introduction](#intro)<br>
+2. [General Objective](#objective)<br>
+3. [Research Question](#question)<br>
+4. [Abridged Methodology](#methodology)<br>
+5. [Main Results](#results)<br>
+6. [Dashboard](#dashboard)<br>
+7. [Conclusions](#conclusions)<br>
+8. [Description of Files in Repository](#files)<br>
+
+
+____
+<a class="anchor" id="intro"></a>
 ### **1. Introduction**
 SpaceX offers Falcon 9 rocket launches with a cost of 62 million dollars while other providers cost upward of 165 million dollars each. A significant amount of the savings is due to SpaceX's ability to reuse the first stage. 
 
@@ -22,14 +36,17 @@ In this context, the main goal of the present study is **to predict the firs
 Furthermore, it is also desirable to obtain other insights from the SpaceX Falcon 9 rocket launches.
 
 ____
+<a class="anchor" id="objective"></a>
 ### **2. Objective**
 To predict the first stage landing of the SpaceX Falcon 9 rocket launches by using a classification model in order to determine the cost of a launch.
 
 ____
+<a class="anchor" id="question"></a>
 ### **3. Question**
 Will the first stage of the SpaceX Falcon 9 rocket land successfully? 
 
 ____
+<a class="anchor" id="methodology"></a>
 ### **4. Abridged Methodology**
 1) **Analytical approach**: Classification model with machine learning.
 2) **Data requirements**: Historical launching data, including information such as Flight Number, Payload Mass, Launch Site, Orbit, Success Rate, among others.
@@ -46,6 +63,7 @@ ____
 9) **Reporting:** A final report was written with the complete results obtained from the analysis.
 
 ___
+<a class="anchor" id="results"></a>
 ### **5. Main Results**
 CCAFS SLC 40 is the most used Launch Site and the VAFB SLC-4E is the least used one. Furthermore, KSC LC-39A is the launch site with the highest number of successful missions and it is notable that the success rate has improved over the years as represented by the Flight number (0 for failed landing and 1 for successful landing).
 
@@ -166,6 +184,7 @@ Moreover, the confusion matrix suggests that the built model is better at predi
 In spite of the above, this results suggest that, indeed, most of the launches from SpaceX will land successfully. 
 
 ___
+<a class="anchor" id="dashboard"></a>
 ### **6. Dashboard**
 To view and play with the interactive Dashboard, please download the **[app](https://github.com/DanielEduardoLopez/IBM-SpaceX/blob/main/7-spacex_dash_app.py)** into a directory of your choice. Then, run the app using the following command in Windows:
 ```bash
@@ -180,6 +199,7 @@ And visit http://127.0.0.1:8050/ in your web browser.
 Please note that Python 3 and its libraries Numpy, Pandas, Dash and Plotly are required for properly running the dashboard.
 
 ___
+<a class="anchor" id="conclusions"></a>
 ### **7. Main Conclusions**
 The classification model built with **Decision Trees** was the one that exhibited the highest accuracy, with an score of **88.9%**. Moreover, the outcome of the model indicated that **most of the launches from SpaceX will land successfully**. 
 
@@ -195,6 +215,7 @@ Other insights obtained from the present analysis were:
 
 
 ____
+<a class="anchor" id="files"></a>
 ### **8. Description of files in repository**
 | **File** | **Description** |
 | ------------- | ------------- |
